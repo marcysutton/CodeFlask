@@ -5,7 +5,7 @@ export const FONT_SIZE = '13px';
 export const default_css_theme = `
 .codeflask {
   background: ${BACKGROUND_COLOR};
-  color: #4f559c;
+  color: #3e448a;
 }
 
 .codeflask .token.punctuation {
@@ -13,7 +13,7 @@ export const default_css_theme = `
 }
 
 .codeflask .token.keyword {
-  color: #8500ff;
+  color: #7600e2;
 }
 
 .codeflask .token.operator {
@@ -29,30 +29,30 @@ export const default_css_theme = `
 }
 
 .codeflask .token.function {
-  color: #8500ff;
+  color: #7600e2;
 }
 
 .codeflask .token.boolean {
-  color: #8500ff;
+  color: #7600e2;
 }
 
 .codeflask .token.number {
-  color: #8500ff;
+  color: #7600e2;
 }
 
 .codeflask .token.selector {
-  color: #8500ff;
+  color: #7600e2;
 }
 
 .codeflask .token.property {
-  color: #8500ff;
+  color: #7600e2;
 }
 
 .codeflask .token.tag {
-  color: #8500ff;
+  color: #7600e2;
 }
 
 .codeflask .token.attr-value {
-  color: #8500ff;
+  color: #7600e2;
 }
 `;
