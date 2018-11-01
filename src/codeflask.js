@@ -102,7 +102,6 @@ export default class CodeFlask {
     this.opts.defaultTheme = this.opts.defaultTheme !== false;
     this.opts.areaId = this.opts.areaId || null;
     this.opts.ariaLabelledby = this.opts.ariaLabelledby || null;
-    this.opts.handleTabs = this.opts.handleTabs || true;
 
     if (this.opts.rtl === true) {
       this.elTextarea.setAttribute('dir', 'rtl');
@@ -171,7 +170,7 @@ export default class CodeFlask {
   }
 
   handleTabs(e) {
-    if (this.opts.handleTabs) {
+    if (!this.opts.disableTabs) {
       if (e.keyCode !== 9) {
         return;
       }
